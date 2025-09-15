@@ -1,0 +1,1 @@
+DATABASE_URI = 'postgresql://postgres:password@localhost:5432/gestao_doacoes'  # Ajuste com sua URI real
