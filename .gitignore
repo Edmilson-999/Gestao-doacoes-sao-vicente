@@ -3,7 +3,8 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
+.env/
 venv/
 .venv/
-data/*.xlsx 
+data/*.xlsx
+src/*.config.py

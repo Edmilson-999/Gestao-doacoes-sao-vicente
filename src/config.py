@@ -1,1 +1,4 @@
-DATABASE_URI = 'postgresql://postgres:password@localhost:5432/gestao_doacoes'  # Ajuste com sua URI real
+from dotenv import load_dotenv
+import os
+load_dotenv()
+DATABASE_URI = os.getenv('DATABASE_URI')
